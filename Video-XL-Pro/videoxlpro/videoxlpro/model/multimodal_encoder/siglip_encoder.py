@@ -72,7 +72,7 @@ class SigLipVisionTower(BaseVisionTower):
     def __init__(self, vision_tower_name, vision_tower_cfg, delay_load=False):
         super(SigLipVisionTower, self).__init__(vision_tower_name, vision_tower_cfg, delay_load)
         
-        model_path = "google/siglip-so400m-patch14-384"
+        model_path = "/home/ubuntu/202502/siglip-so400m-patch14-384"
         base_model_name, res, interp = model_path, 384, 576
         self.vision_tower_name = base_model_name
         self._image_size = res if res is not None else 512

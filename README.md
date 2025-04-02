@@ -1,6 +1,6 @@
 
 
-
+CUDA_VISIBLE_DEVICES=1 python prepare_vxl3b_0403.py --cached-data-root /home/ubuntu/2025/loki --output-dir /home/ubuntu/2025/vxl3b_loki
 
 
 
